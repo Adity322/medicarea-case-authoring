@@ -56,8 +56,6 @@ https://medicarea-case-authoring.vercel.app
 Optimized for:
 
 - Desktop
-- Mobile
-
 ---
 
 # 🛠 Tech Stack

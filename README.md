@@ -1,36 +1,217 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🩺 MediCarea Case Authoring Portal
 
-## Getting Started
+A modern multi-step case authoring platform built with **Next.js**, **React**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.
 
-First, run the development server:
+This project was developed as an internship assignment for **MediCarea**, an AI-powered clinical reasoning platform that helps medical students practice patient diagnosis through virtual clinical simulations.
+
+---
+
+## 🚀 Live Demo
+
+https://medicarea-case-authoring.vercel.app
+
+---
+
+# ✨ Features
+
+### 📋 Multi-Step Clinical Case Creation
+
+- Case Basics
+- Patient Information
+- Patient History
+- Examination Findings
+- Review & Submit
+
+---
+
+### 📈 Interactive Progress Stepper
+
+- Visual progress indicator
+- Clickable navigation
+- Step completion tracking
+- Progress percentage display
+
+---
+
+### 💾 Draft Management
+
+- Save Draft
+- Restore Draft after refresh
+- Local Storage persistence
+- Drafts page
+
+---
+
+### ✅ Completed Cases
+
+- Submit completed clinical cases
+- Completed cases dashboard
+- Local Storage based storage
+
+
+---
+
+### 📱 Responsive Design
+
+Optimized for:
+
+- Desktop
+- Mobile
+
+---
+
+# 🛠 Tech Stack
+
+- Next.js 
+- React
+- Tailwind CSS
+
+---
+
+# 📁 Project Structure
+
+```
+src/
+│
+├── app/
+│   ├── create-case/
+│   ├── drafts/
+│   ├── completed/
+│   └── page.tsx
+│
+├── components/
+│   ├── forms/
+│   ├── layout/
+│   └── ui/
+│
+├── lib/
+│   └── storage.ts
+│
+└── styles/
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/medicarea-case-authoring.git
+```
+
+Move into the project
+
+```bash
+cd medicarea-case-authoring
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 📌 Workflow
 
-To learn more about Next.js, take a look at the following resources:
+```
+Dashboard
+      │
+      ▼
+Create New Case
+      │
+      ▼
+Case Basics
+      │
+      ▼
+Patient Information
+      │
+      ▼
+Patient History
+      │
+      ▼
+Examination Findings
+      │
+      ▼
+Review & Submit
+      │
+      ▼
+Completed Cases
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 💡 Product Features
 
-## Deploy on Vercel
+- Multi-step authoring experience
+- Persistent draft storage
+- Auto draft restoration
+- Clinical case preview
+- Responsive UI
+- Clean component architecture
+- Interactive stepper
+- Dashboard navigation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 🎯 Assignment Requirements Covered
+
+✅ Create new clinical case
+
+✅ Patient details
+
+✅ Patient history
+
+✅ Examination findings
+
+✅ Multi-step form
+
+✅ Preview before submission
+
+✅ Responsive design
+
+✅ React / Next.js implementation
+
+✅ Clean folder structure
+
+✅ Local Storage support
+
+✅ GitHub source code
+
+✅ Deployment ready
+
+---
+
+
+- Dashboard
+- Create Case
+- Patient Information
+- Review Page
+- Completed Cases
+
+---
+
+# 👨‍💻 Author
+
+**Aditya Kumar Singh**
+
+
+---
+
+# 📄 License
+
+This project was created as part of the MediCarea Internship Assignment and is intended for educational and evaluation purposes.
